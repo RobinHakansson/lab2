@@ -4,14 +4,20 @@ require 'vendor/autoload.php';
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 
-$log = new Logger('Laboration 1');
+$log = new Logger('Laboration 2');
 $log->pushHandler(new StreamHandler('greetings.log', Logger::INFO));
 
-$log->info("Hello ".$argv[1]."! What a wonderful name!");
-
-
-echo "Log complete!";
-// echo "Hello ".$argv[1]."! What a wonderful name!";
-
-// var_dump($argv);
+$name = $_GET['name'];
+$log->info($name);
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Testing, testing</title>
+</head>
+<body>
+<?php
+echo "Hello, " . $name;
+?>
+</body>
+</html>
