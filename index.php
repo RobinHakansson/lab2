@@ -13,7 +13,7 @@ $log->info($name);
 <!DOCTYPE html>
 <html>
 <head>
-<title>Testing, testing</title>
+<title>Testing, lab2</title>
 <link rel="stylesheet" type="text/css" href="background.css">
 </head>
 <body>

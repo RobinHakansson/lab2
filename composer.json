@@ -1,6 +1,6 @@
 {
     "name": "mau/testing",
-    "description": "Detta är ett composer test",
+    "description": "Detta är ett composer test för lab 2",
     "require": {
         "catfan/medoo": "1.2",
 	    "phpunit/phpunit": "^7.0",
